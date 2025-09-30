@@ -11,7 +11,7 @@ The main purposes of this repo are:
 ---
 
 ## 📂 Repository Structure
-
+```
 asd-labs/  
 │  
 ├── lab01/  
@@ -30,7 +30,7 @@ asd-labs/
 ├── Makefile # root Makefile (build any lab/exercise)  
 ├── .gitignore # ignore build artifacts and IDE files  
 └── README.md # this file  
-
+```
 
 ---
 
@@ -50,15 +50,20 @@ Each exercise folder may include its own Makefile:
 cd lab01/ex01_hello_world
 make run
 ```
+---
 
 ## 📚 Notes
 - Code follows the C11 standard and is compiled with gcc using warnings enabled (-Wall -Wextra).
 - Some exercises may include additional notes or comments inside their folder README.md.
 - CLion users: this repo includes a .gitignore that excludes .idea/ and cmake-build-* to avoid clutter
 
+---
+
 ## 🔑 License
 This repository is shared for educational purposes only.  
 Feel free to reference the solutions, but try to attempt the exercises on your own first 🙂.
+
+---
 
 ## 👤 Author
 Edoardo – Computer Engineering Student  
