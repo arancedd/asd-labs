@@ -12,7 +12,7 @@ The main purposes of this repo are:
 
 ## 📂 Repository Structure
 
-advanced-c-labs/  
+asd-labs/  
 │  
 ├── lab01/  
 │ ├── ex01/  
