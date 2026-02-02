@@ -1,0 +1,4 @@
+3
+Ronaldo 39
+Messi 36
+Mbappe 25
