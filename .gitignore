@@ -38,6 +38,7 @@
 
 # Debug files
 *.dSYM/
+.idea/
 *.su
 *.idb
 *.pdb
@@ -53,3 +54,4 @@ dkms.conf
 
 # debug information files
 *.dwo
+
