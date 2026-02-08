@@ -9,9 +9,9 @@ add_executable(p1_01
         exam/part1/05/ricerca.h
         exam/part1/05/ricerca.h
         exam/part2/02/main.c
-        exam/part2/04/tree.c
-        exam/part2/04/tree.h
-        exam/part2/04/main.c)
+        exam/part3/01/tree.c
+        exam/part3/01/tree.h
+        exam/part3/01/main.c)
 add_executable(p1_02
         exam/part1/02/main.c)
 add_executable(p1_03
@@ -34,6 +34,6 @@ add_executable(p2_02 exam/part2/02/main.c
 add_executable(p2_03 exam/part2/03/main.c
         exam/part2/03/knapsack.c
         exam/part2/03/knapsack.h)
-add_executable(p2_04 exam/part2/04/main.c
-        exam/part2/04/tree.c
-        exam/part2/04/tree.h)
+add_executable(p3_01 exam/part3/01/main.c
+        exam/part3/01/tree.c
+        exam/part3/01/tree.h)
