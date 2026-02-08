@@ -26,7 +26,21 @@ asd-labs/
 │  
 ├── lab02/  
 │ └── ...  
-│  
+│
+├── exam/  
+│ └── part1  
+│ │ └── 01 
+│ │ │ ├── src/ # source code (.c / .h)  
+│ │ │ ├── tests/ # optional input/output test files  
+│ │ │ ├── Makefile # build instructions (local Makefile)  
+│ │ │ └── README.md # exercise description + notes 
+│ │ ├── 02
+│ │ │ └──  ...
+│ └── part2 
+│ │ └── 01 
+│ │ │ └──  ...
+│
+│
 ├── Makefile # root Makefile (build any lab/exercise)  
 ├── .gitignore # ignore build artifacts and IDE files  
 └── README.md # this file  
