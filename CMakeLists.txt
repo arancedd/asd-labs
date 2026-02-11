@@ -37,3 +37,5 @@ add_executable(p2_03 exam/part2/03/main.c
 add_executable(p3_01 exam/part3/01/main.c
         exam/part3/01/tree.c
         exam/part3/01/tree.h)
+add_executable(p4_01 exam/part4/01/graph.c exam/part4/01/graph.h
+        exam/part4/01/main.c)
