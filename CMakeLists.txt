@@ -11,7 +11,12 @@ add_executable(p1_01
         exam/part2/02/main.c
         exam/part3/01/tree.c
         exam/part3/01/tree.h
-        exam/part3/01/main.c)
+        exam/part3/01/main.c
+        exam/sim01/ex01/matrix.c
+        exam/sim01/ex01/matrix.h
+        exam/sim02/ex01/vett.c
+        exam/sim02/ex01/vett.h
+)
 add_executable(p1_02
         exam/part1/02/main.c)
 add_executable(p1_03
@@ -39,3 +44,15 @@ add_executable(p3_01 exam/part3/01/main.c
         exam/part3/01/tree.h)
 add_executable(p4_01 exam/part4/01/graph.c exam/part4/01/graph.h
         exam/part4/01/main.c)
+add_executable(sim01 lab08/ex03/data.c
+        lab08/ex03/data.h
+        exam/sim01/ex01/matrix.c
+        exam/sim01/ex01/matrix.h
+        exam/sim01/ex02/list.c
+        exam/sim01/ex02/list.h)
+add_executable(sim01_03 exam/sim01/ex03/group.c exam/sim01/ex03/group.h
+        exam/sim01/ex03/main.c)
+add_executable(sim02_02 exam/sim02/ex02/bst.c exam/sim02/ex02/bst.h
+        exam/sim02/ex02/main.c)
+add_executable(sim02_03 exam/sim02/ex03/maze.c exam/sim02/ex03/maze.h
+        exam/sim02/ex03/main.c)
