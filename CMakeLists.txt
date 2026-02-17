@@ -65,3 +65,7 @@ add_executable(sim05_02 exam/sim05/ex02/compression.c exam/sim05/ex02/compressio
         exam/sim05/ex02/main.c)
 add_executable(sim05_03 exam/sim05/ex03/helper.c exam/sim05/ex03/helper.h
         exam/sim05/ex03/main.c)
+add_executable(sim06_01 exam/sim06/ex01/vocals.c exam/sim06/ex01/vocals.h)
+add_executable(sim06_02 exam/sim06/ex02/extraction.c exam/sim06/ex02/extraction.h)
+add_executable(sim06_03 exam/sim06/ex03/sim06ex03.c exam/sim06/ex03/sim06ex03.h
+        exam/sim06/ex03/main.c)

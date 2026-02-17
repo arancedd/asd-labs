@@ -18,12 +18,8 @@ struct list_t {
 };
 
 
-LIST LISTinit() {
-    LIST L = malloc(sizeof(struct list_t));
-    if (L == NULL) exit(EXIT_FAILURE);
-    L->head = NULL;
-    return L;
-}
+
+
 
 LIST extractMultiples(LIST L, int K) {
     // 1. Creiamo il nuovo wrapper
