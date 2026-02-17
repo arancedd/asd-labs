@@ -8,19 +8,6 @@ add_executable(p1_01
         exam/part1/01/main.c
         exam/part1/05/ricerca.h
         exam/part1/05/ricerca.h
-        exam/part2/02/main.c
-        exam/part3/01/tree.c
-        exam/part3/01/tree.h
-        exam/part3/01/main.c
-        exam/sim01/ex01/matrix.c
-        exam/sim01/ex01/matrix.h
-        exam/sim02/ex01/vett.c
-        exam/sim02/ex01/vett.h
-        exam/sim03/ex02/main.c
-        exam/sim04/ex01/alternate.c
-        exam/sim04/ex01/alternate.h
-        exam/sim04/ex02/potatura.c
-        exam/sim04/ex02/potatura.h
 )
 add_executable(p1_02
         exam/part1/02/main.c)
@@ -72,3 +59,9 @@ add_executable(sim04_02 exam/sim04/ex02/potatura.c exam/sim04/ex02/potatura.h
         exam/sim04/ex02/main.c)
 add_executable(sim04_03 exam/sim04/ex03/cruciverba.c exam/sim04/ex03/cruciverba.h
         exam/sim04/ex03/main.c)
+add_executable(sim05_01 exam/sim05/ex01/even.c exam/sim05/ex01/even.h
+        exam/sim05/ex01/main.c)
+add_executable(sim05_02 exam/sim05/ex02/compression.c exam/sim05/ex02/compression.h
+        exam/sim05/ex02/main.c)
+add_executable(sim05_03 exam/sim05/ex03/helper.c exam/sim05/ex03/helper.h
+        exam/sim05/ex03/main.c)
