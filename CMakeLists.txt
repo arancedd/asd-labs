@@ -69,3 +69,4 @@ add_executable(sim06_01 exam/sim06/ex01/vocals.c exam/sim06/ex01/vocals.h)
 add_executable(sim06_02 exam/sim06/ex02/extraction.c exam/sim06/ex02/extraction.h)
 add_executable(sim06_03 exam/sim06/ex03/sim06ex03.c exam/sim06/ex03/sim06ex03.h
         exam/sim06/ex03/main.c)
+add_executable(sim07_01 exam/sim07/ex01/sim0701.c exam/sim07/ex01/sim0701.h)
